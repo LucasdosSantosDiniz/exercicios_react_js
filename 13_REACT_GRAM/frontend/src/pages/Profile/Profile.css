@@ -1,0 +1,155 @@
+#profile {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1em;
+  box-sizing: border-box;
+}
+
+/* Cabeçalho: foto, nome e e-mail */
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5em 0 0.5em;
+}
+
+.profile-header > img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5em;
+}
+
+.profile-info h2 {
+  margin: 0 0 0.3em;
+}
+
+.profile-info p {
+  margin: 0;
+}
+
+/* Formulário */
+.new-photo {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0.8em 0 1.4em;
+  border-bottom: 1px solid #363636;
+}
+
+.new-photo h3 {
+  margin: 0 0 1em;
+  text-align: center;
+}
+
+.new-photo form {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Feed */
+.user-photos {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.2em 0;
+}
+
+.user-photos h2 {
+  text-align: center;
+  margin: 0 0 1em;
+}
+
+.photos-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.photo {
+  width: 100%;
+  min-width: 0;
+}
+
+.photo img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Ícones abaixo da imagem */
+.actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4px 0;
+  box-sizing: border-box;
+}
+
+.actions svg {
+  font-size: 20px;
+  padding: 10px 14px;
+  box-sizing: content-box;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.actions svg:hover {
+  opacity: 0.7;
+}
+
+/* Edição de foto */
+.edit-photo {
+  margin-bottom: 1em;
+}
+
+.edit-photo img {
+  display: block;
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto 1em;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  #profile {
+    padding: 0 0.75em;
+  }
+
+  .photos-container {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  #profile {
+    padding: 0 0.5em;
+  }
+
+  .profile-header {
+    padding: 1em 0 0.5em;
+  }
+
+  .profile-header > img {
+    width: 100px;
+    height: 100px;
+  }
+
+  /* 2 colunas: com 3, os ícones ficam apertados em ~380px */
+  .photos-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4px;
+  }
+
+  .actions svg {
+    font-size: 18px;
+    padding: 12px 10px;
+  }
+}

@@ -1,0 +1,8 @@
+.products h3 {
+  color: #008000;
+}
+.products p {
+  color: red;
+  font-weight: 600;
+  font-size: 35px;
+}

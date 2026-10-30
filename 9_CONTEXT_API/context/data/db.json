@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "name": "Chevrolet Onix",
+      "price": "84.990",
+      "id": "uykq363-0lQ"
+    },
+    {
+      "name": "Toyota Hilux",
+      "price": "242.590",
+      "id": "Fa1YXN-2LAo"
+    },
+    {
+      "name": "Jeep Compass",
+      "price": "186.990",
+      "id": "fSVN7OUEYe8"
+    },
+    {
+      "name": "Hyundai Creta",
+      "price": "124.990",
+      "id": "Oq7KVYNNy-w"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "products": [
+    {
+      "name": "Citroën C3",
+      "price": "79.990",
+      "id": "EkjiBbmwAiM"
+    },
+    {
+      "name": "Chevrolet Onix",
+      "price": "84.990",
+      "id": "uykq363-0lQ"
+    },
+    {
+      "name": "Chevrolet Tracker",
+      "price": "117.990",
+      "id": "pB1WqtO1kAQ"
+    },
+    {
+      "name": "Toyota Hilux",
+      "price": "242.590",
+      "id": "Fa1YXN-2LAo"
+    },
+    {
+      "name": "Fiat Strada",
+      "price": "120.490",
+      "id": "WiE2fC8nTcU"
+    },
+    {
+      "name": "Jeep Compass",
+      "price": "186.990",
+      "id": "fSVN7OUEYe8"
+    },
+    {
+      "name": "Hyundai Creta",
+      "price": "124.990",
+      "id": "Oq7KVYNNy-w"
+    },
+    {
+      "name": "Volkswagen T-Cross",
+      "price": "119.990",
+      "id": "F_YsT7vDbRE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

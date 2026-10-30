@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+}
+nav a {
+  margin: 0 10px;
+  padding: 5px;
+  text-decoration: none;
+  color: #0000ff;
+}
+nav a:hover {
+  color: #0ce20c;
+}
+.active {
+  background-color: #0000ff;
+  color: #ffff;
+}
